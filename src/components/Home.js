@@ -40,8 +40,8 @@ class Home extends Component {
 
   handleRating = e => {
     const copyData = this.convertObject(this.state.data)
-    const dataHead = []
-    const dataTail = []
+    let dataHead = []
+    let dataTail = []
 
     copyData.forEach((doctor, index) => {
       if(doctor.rating === e) {
@@ -50,6 +50,10 @@ class Home extends Component {
       else {
         dataTail.push(doctor)
       }
+    })
+
+    dataHead.sort(function(a,b) {
+      return b.rating - a.rating
     })
 
     const resultHeadAndTail = dataHead.concat(dataTail)
@@ -61,8 +65,8 @@ class Home extends Component {
 
   handleSpecialty = e => {
     const copyData = this.convertObject(this.state.data)
-    const dataHead = []
-    const dataTail = []
+    let dataHead = []
+    let dataTail = []
 
     copyData.forEach((doctor, index) => {
       if(doctor.speciality === e.speciality) {
@@ -71,6 +75,10 @@ class Home extends Component {
       else {
         dataTail.push(doctor)
       }
+    })
+
+    dataHead.sort(function(a,b) {
+      return b.rating - a.rating
     })
 
     const resultHeadAndTail = dataHead.concat(dataTail)
@@ -82,8 +90,8 @@ class Home extends Component {
 
   handleArea = e => {
     const copyData = this.convertObject(this.state.data)
-    const dataHead = []
-    const dataTail = []
+    let dataHead = []
+    let dataTail = []
 
     copyData.forEach((doctor, index) => {
       if(doctor.areas === e.area) {
@@ -92,6 +100,10 @@ class Home extends Component {
       else {
         dataTail.push(doctor)
       }
+    })
+
+    dataHead.sort(function(a,b) {
+      return b.rating - a.rating
     })
 
     const resultHeadAndTail = dataHead.concat(dataTail)

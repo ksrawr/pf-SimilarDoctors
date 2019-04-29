@@ -43,14 +43,8 @@ export default class DoctorDetail extends Component {
     }
   }
 
-	// componentDidMount() {
-	// 	this.getSimilarDoctors()
-	// }
-
 	render() {
-		console.log(this.props.location.state.doctorData)
 		const data = this.getSimilarDoctors(this.props.location.state.doctorData)
-		console.log(data)
 		return(
 			<React.Fragment>
 	      <Navbar bg="primary">

@@ -7,7 +7,6 @@ export default class DoctorInfo extends Component {
 
 	render() {
 		const d = this.props.convertObject(this.props.doctors)
-		console.log(d)
 		return (
 			<React.Fragment>
 			<div>
