@@ -1,4 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PF: Similar Doctors
+
+Similar Doctors is web application for viewing and filtering Similar Doctors based on field speciality, location, and review rating. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Built With 
+* [React](https://reactjs.org/) - The web framework used
+* [React-Bootstrap](https://react-bootstrap.github.io/)
+* [Firebase](https://firebase.google.com/) - Database
 
 ## Available Scripts
 
