@@ -1,6 +1,10 @@
 # PF: Similar Doctors
 
-Similar Doctors is web application for viewing and filtering Similar Doctors based on field speciality, location, and review rating. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Similar Doctors is a web application for viewing and filtering Similar Doctors based on field speciality, location, and review rating. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## DemoURL
+
+https://frozen-cove-49133.herokuapp.com
 
 ## Built With 
 * [React](https://reactjs.org/) - The web framework used
